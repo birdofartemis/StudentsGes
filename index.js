@@ -1,7 +1,8 @@
 const exprees = require('express');
 const path = require('path');
-const connection = require('./dbConnection');
 const app = exprees();
+
+app.use('/user', require('./routes/getUserLogIn'));
 
 app.use(exprees.static('./public'));
 

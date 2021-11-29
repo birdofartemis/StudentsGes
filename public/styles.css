@@ -1,0 +1,11 @@
+.container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+button {
+  margin-top: 0.5rem;
+  float: right;
+}

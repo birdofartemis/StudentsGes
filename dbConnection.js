@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
 });
 
 connection.connect(err => {
-    (err) ? console.log(`Error connecting to ${process.env._HOST}`) : console.log(`Connected to ${process.env._HOST}`)
+    (err) ? alert(`Error connecting to ${process.env._DATABASE}`) : console.log(`Connected to ${process.env._DATABASE}`)
 });
 
 module.exports = connection;
