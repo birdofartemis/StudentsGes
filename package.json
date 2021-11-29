@@ -1,0 +1,28 @@
+{
+  "name": "studentsges",
+  "version": "1.0.0",
+  "description": "School Project: Node + SQL + Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birdofartemis/StudentsGes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/birdofartemis/StudentsGes/issues"
+  },
+  "homepage": "https://github.com/birdofartemis/StudentsGes#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
